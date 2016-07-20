@@ -179,7 +179,7 @@ ezknitr_helper <- function(type,
          call. = FALSE)
   }
   
-  # Determine the path fo the input file, either absolute path or relative to wd
+  # Determine the path of the input file, either absolute path or relative to wd
   if (!R.utils::isAbsolutePath(file)) {
     file <- file.path(wd, file)
   }
